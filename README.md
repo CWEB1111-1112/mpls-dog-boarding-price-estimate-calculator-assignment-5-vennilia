@@ -7,7 +7,7 @@ The MPLS Dogboarding academy wants to incorporate functionality that allows the 
 
 ## Requirements
 
-Construct an estimate class that holds the data for the dog's owner, the dogs name, the weight of dog, the number or days the dog will stay, a service add-on code and a total estimate of their dogs stay. Create an array of three estimate objects and populate the three instances by asking for the above data and generate an estimated cost of the dog's stay.  The cost for an overnight stay is $75.00 per day and the end-user would enter add-on service code N for no additional services. If the add on service code is A, bathing and grooming will be included, and the price is $169.00 per day. If the add-on service code is C, only bathing is included, and the price is $112.00 per day. All other codes are invalid.   Your program should include a toString method that outputs the data and a working method that processing the end-user service code and set's the value for total estimate.  The end-user should be able to continuously until all three object instances have been created.
+Construct an estimate class that holds the data for the dog's owner, the dogs name, the weight of dog, the number or days the dog will stay, a service add-on code and a total estimate of their dogs stay. Within the main method, create an estimate object and populate the the object instance by asking for the above data and generate an estimated cost of the dog's stay. The cost for an overnight stay is $75.00 per day and the end-user would enter add-on service code N for no additional services. If the add on service code is A, bathing and grooming will be included, and the price is $169.00 per day. If the add-on service code is C, only bathing is included, and the price is $112.00 per day. All other codes are invalid. Your program should include a toString method that outputs the data and a working method that processing the end-user service code and set's the value for total estimate.
 
 
 ## Submission
@@ -20,9 +20,9 @@ Please submit a zipped folder containing your c# console application and the URL
 ## Rubric Criteria
 * Program successfully compiles and runs
 * Program properly declares class properties/auto implemented properties including applicable constant variables.
-* Properly defined working  and toString methods.
-* Logic of main method is correctly coded with consideration of created 3 object instances
-* Logic for continuous iteration to populate three object instances.
+* Utilizes toString method within Estimate class
+* Logic of main method is correctly coded with consideration of created object instance
+* Object instance properly populated
 * Welcome module and end of program module included in program
 
 
