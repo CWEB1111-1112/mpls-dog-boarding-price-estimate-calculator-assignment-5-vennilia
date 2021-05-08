@@ -4,7 +4,9 @@ namespace assignment_five
 {
     class Program
     {
-        //Global Declarations
+        static void Main(string[] args)
+        {
+            //Global Declarations
             int num_days;
             CostCalc[] calculations = new CostCalc[2];
             string code = "No Service Code Entered";
@@ -110,5 +112,7 @@ namespace assignment_five
         {
             return String.Format($"Total amount of days:\t {DayCount} \n Service Code:\t {Code}\n Total for Stay: {Total.ToString("c")}");
         }
+
     }
-}
+    }
+
